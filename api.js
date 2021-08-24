@@ -1,4 +1,4 @@
-var gauthkey = 'AIzaSyABFPv4TQkz192stP4uyExm4l5qZLkXrlw'; // https://developers.google.com/sheets/api/guides/authorizing#APIKey
+var gauthkey = '###'; // https://developers.google.com/sheets/api/guides/authorizing#APIKey
 var request = require('request');
 
 module.exports = function (req, res, next) {
